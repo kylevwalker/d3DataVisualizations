@@ -1,0 +1,22 @@
+svg{
+    display:block;
+    margin:auto;
+}
+
+#controls{
+    display:flex;
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 25px;
+    justify-content: space-around;
+}
+
+.axisLabel{
+    fill: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-anchor: middle;
+    font-family:'Times New Roman', Times, serif
+}
+

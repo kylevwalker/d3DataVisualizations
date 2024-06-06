@@ -1,0 +1,52 @@
+/**
+    Author: Kyle Walker
+    Class: Joshua Levine Csc444 Data Vis Spring 2024
+    Date: 1/26/24
+    Purpose: This Css style sheet manages all color and styles applied to 
+        the SVG elements of the html page. They have varying fill and stroke
+        colors and styles, with different stroke widths depending on the model.
+        All style is meant to replicate the examples from the spec and decouple
+        visual styles from the individual html elements for modularity.
+*/
+
+svg{
+    margin: auto;
+    display: block;
+}
+
+#yellow_bar_chart{
+    fill: yellow;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+#green_bar_chart{
+    fill: green;
+    stroke: white;
+    stroke-width: 2px;
+}
+
+#line_line_chart{
+    fill:none;
+    stroke: black;
+    stroke-width: 3px;
+}
+
+#path_line_chart{
+    fill: none;
+    stroke: black;
+    stroke-dasharray: 10 10;
+    stroke-width: 3px;
+}
+
+#wedge_pink{
+    fill:hotpink;
+    stroke: black;
+    stroke-width: 3px;
+}
+
+#wedge_white{
+    fill:white;
+    stroke: black;
+    stroke-width: 3px;
+}

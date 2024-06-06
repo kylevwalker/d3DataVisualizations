@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>A01 Kyle Walker - Csc444</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+
+    <!--
+        Author: Kyle Walker
+        Class: Joshua Levine Csc444 Data Vis Spring 2024
+        Date: 1/26/24
+        Purpose: This HTML form holds the contents of assignment 1. The
+            purpose is to demonstrate different applications of SVG elements
+            within the assigned constraints and styles. All style is handled
+            by a separate CSS file for modularity.
+    -->
+    
+    <body>
+        <svg id="yellow_bar_chart"
+        width="400" height="400">  
+            <g transform="scale (1 -1) translate (0 -400)">
+                <rect width="50px" height="200px" x="0"/>
+                <rect width="50px" height="150px" x="50"/>
+                <rect width="50px" height="250px" x="100"/>
+                <rect width="50px" height="100px" x="150"/>
+                <rect width="50px" height="100px" x="200"/>
+                <rect width="50px" height="175px" x="250"/>
+                <rect width="50px" height="175px" x="300"/>
+                <rect width="50px" height="300px" x="350"/>
+            </g>
+        </svg>
+        
+        <svg id="green_bar_chart"
+        width="400" height="400">
+            <g transform="scale (1 -1) translate (0 -400)">
+                <rect width="50px" height="200px" x="0"/>
+                <rect width="50px" height="150px" x="50"/>
+                <rect width="50px" height="250px" x="100"/>
+                <rect width="50px" height="100px" x="150"/>
+                <rect width="50px" height="100px" x="200"/>
+                <rect width="50px" height="175px" x="250"/>
+                <rect width="50px" height="175px" x="300"/>
+                <rect width="50px" height="300px" x="350"/>
+            </g>
+        </svg>
+        
+        <svg id="line_line_chart"
+        width="400" height="400">
+            <line x1="0" x2="50" y1="200" y2="250"/>
+            <line x1="50" x2="100" y1="250" y2="150"/>
+            <line x1="100" x2="150" y1="150" y2="300"/>
+            <line x1="150" x2="200" y1="300" y2="300"/>
+            <line x1="200" x2="250" y1="300" y2="225"/>
+            <line x1="250" x2="300" y1="225" y2="225"/>
+            <line x1="300" x2="350" y1="225" y2="100"/>
+        </svg>
+        
+        <svg id="path_line_chart"
+        width="400" height="400">
+            <path d="M 0 200 L 50 250 L 100 150 L 150 300 
+            L 200 300 L 250 225 L 300 225 L 350 100" />
+        </svg>
+
+        <svg id="pie_chart"
+        width="400" height="400">
+            <path id="wedge_pink" d="M 200 200
+            L 200 50
+            A 150 150, 0, 1, 0, 350 200
+            L 200 200"/>
+
+            <path id="wedge_white" d="M 200 200
+            L 200 50
+            A 150 150, 0, 0, 1, 350 200
+            L 200 200"/>
+        </svg>
+
+    </body>
+</html>
